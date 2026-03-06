@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memory Vault</title>
 
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+<header>
+<h1>Our Memory Vault ❤️</h1>
+<div id="days"></div>
+</header>
+
+<section class="upload">
+<h2>Add Memory</h2>
+
+<input type="file" id="photo">
+<input type="date" id="date">
+<textarea id="message" placeholder="Write memory..."></textarea>
+
+<button onclick="saveMemory()">Save Memory</button>
+</section>
+
+<section>
+<h2>Timeline</h2>
+<div id="timeline"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>  
